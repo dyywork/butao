@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" href="../css/common/base.css" />
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/goodList.css" />
+		<link rel="stylesheet" href="../css/index.css" />	
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="butaotop">
+			<!--左侧-->
+			<ul class="topleft">
+				<li><a class="collectbg" href="javascript:;">收藏步淘</a></li>
+				<li class="line"></li>
+				<li id="users">您好，欢迎来到步淘生活商城！</li>
+				<li><a href="login.html" id="cancel">请登录</a></li>
+				<li class="line"></li>
+				<li><a href="register.html">注册有礼</a></li>
+				<li class="line"></li>
+				<li class="quicka"><a href="javascript:;">快捷登录
+						<span></span>	
+					</a>
+					<ul class="quick">
+						<li><a href="javascript:;"><img src="../img/common/qkbaidu.png"/>百度登录</a></li>
+						<li><a href="javascript:;"><img src="../img/common/qkalipay.png"/>支付宝登录</a></li>
+						<li><a href="javascript:;"><img src="../img/common/qksina.png"/>微博登录</a></li>
+						<li><a href="javascript:;"><img src="../img/common/qkqq.png"/>QQ登录</a></li>
+					</ul>
+				</li>
+			</ul>
+			<!--右侧-->
+			<ul class="topright">
+				<li class="ma_l">400-680-2212</li>
+				<li class="line"></li>
+				<li><a href="shopCar.html">购物车：<b class="num">0</b>件商品</a></li>
+				<li class="my_bt"><a href="javascript:;">我的步淘
+						<span></span>
+					</a>
+					<ul class="my_bt_c">
+						<li><a href="javascript:;">签到换礼</a></li>
+						<li><a href="javascript:;">我的积分</a></li>
+						<li><a href="javascript:;">我的订单</a></li>
+						<li><a href="javascript:;">账户信息</a></li>
+						<li><a href="javascript:;">我的淘币</a></li>
+					</ul>
+				</li>
+				<li class="line"></li>
+				<li class="follow"><a href="javascript:;">关注我们
+						<span></span>
+					</a>
+					<ul class="follow_c">
+						<li><a href="javascript:;"><img src="../img/common/weiboqq.png" />腾讯微博</a></li>
+						<li><a href="javascript:;"><img src="../img/common/weibosina.png" />新浪微博</a></li>
+					</ul>
+				</li>
+				<li><a href="javascript:;"><img src="../img/common/qd_1.gif"/></a></li>
+			</ul>
+		</div>
+		<!--顶部结尾-->
+		
+		<!--头部-->
+		<div class="shopheader">
+			<div class="logo">
+				<a href="index.html">
+					<img src="../img/common/logo.png" />
+				</a>
+			</div>
+			<div class="s_h_serach">
+				<div class="s_h_s_big"></div>
+				<input type="text" class="text" placeholder="关键字"/>
+				<input type="submit" class="s_h_btn" value="" />
+			</div>
+			<div class="shop_seller">
+				<a href="javascript:;">森马</a>
+				<a href="javascript:;">巴拉巴拉</a>
+				<a href="javascript:;">迪士尼</a>
+				<a href="javascript:;">外套</a>
+				<a href="javascript:;">针织衫</a>
+				<a href="javascript:;">羽绒服</a>
+				<a href="javascript:;">牛仔裤</a>
+				<a href="javascript:;">女装</a>
+				<a href="javascript:;">男鞋</a>
+			</div>
+			<div class="safe">
+				<a href="javascript:;">
+					<img class="safe_w_1" src="../img/common/hd_safe.jpg"/>
+				</a>
+				<a href="javascript:;">
+					<img class="safe_w_2" src="../img/common/hd_wap.jpg" />
+				</a>
+			</div>
+			
+		</div>
+		<!--头部结尾-->
+		<!--导航条开始-->
+		<div class="nav">
+			<div class="nav_center">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<span class="nav_line"></span>
+					<li><a href="javascript:;">品牌特价</a></li>
+					<span class="nav_line"></span>
+					<li><a href="javascript:;">女装折扣</a></li>
+					<span class="nav_line"></span>
+					<li><a href="javascript:;">品牌男装</a></li>
+					<span class="nav_line"></span>
+					<li class="ipa_air">
+						<a href="javascript:;">积分抽奖</a>
+						<img class="ipa_air_img" src="../img/common/iPhone.png" />
+					</li>
+					<span class="nav_line"></span>
+					<li class="nav_hot">
+						<a href="javascript:;">特价商品</a>
+						<img class="nav_h_img" src="../img/common/hot.png" />
+					</li>
+					<span class="nav_line"></span>
+					<li class="integral"><a href="javascript:;">签到换礼</a></li>
+				</ul>
+				<div class="integral_condition">
+					<p>连续签到：0天</p>
+					<p>今天签到可赚：<span> 10 </span>积分</p>
+					<p>连续签到每日可赚<span> 20 </span>积分</p>
+					<p class="integral_condition_color">80分换1RMB</p>
+					<p class="integral_condition_color">参与抽奖或iPad Air &gt;&gt;</p>
+					<p class="integral_condition_color">新手任务轻松赚取积分 >></p>
+				</div>
+			</div>
+		</div>
+		<!--导航条结束-->
+		<!--商品详情内容部分开始-->
+		<div class="goodList_con">
+			<ul class="goodList_search_s">
+				<li>
+					<span>网购：</span><a href="javascript:;">全部</a>
+					<a href="javascript:;">服装配饰<i>(1189)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>					
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+				</li>
+				<li class="goods_b">
+					<a href="javascript:;">全部</a>
+					<a href="javascript:;">服装配饰<i>(1189)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>					
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="goodlist_zhe">
+			<span>排序：</span>
+			<a href="javascript:;">折扣<b></b></a>
+			<a href="javascript:;">价格<b class="g_z_bg"></b></a>
+		</div>
+		<div class="goods">
+			<ul>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>8</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥80.00</b> <i>折扣<span>1</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>18</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥90.00</b> <i>折扣<span>2</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>30</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥100.00</b> <i>折扣<span>3</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>44</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥110.00</b> <i>折扣<span>4</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>60</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥120.00</b> <i>折扣<span>5</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>73</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥122.00</b> <i>折扣<span>6</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>86</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥124.00</b> <i>折扣<span>7</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>100</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥125.00</b> <i>折扣<span>8</span>折</i></p>
+				</li>
+				<li>
+					<h2><a href="javascript:;">森马长袖T恤 2016秋装新款 女士圆领趣味卡通大象印花纯棉t恤韩版</a></h2>
+					<div class="goods_img">
+						<img src="../img/goodDetail/l_1.jpg" />
+					</div>
+					<div class="goods_buy">
+						<span>￥<label>113</label>.00</span>
+						<a href="javascript:;"></a>
+					</div>
+					<p>原价:<b>￥126.00</b> <i>折扣<span>9</span>折</i></p>
+				</li>
+			</ul>
+		</div>
+		<!--商品详情结束-->
+		<!--分页开始-->
+		<div class="page">
+			<button>上一页</button>
+			<a class="p_bg" href="javascript:;">1</a>
+			<a href="javascript:;">2</a>
+			<a href="javascript:;">3</a>
+			<a href="javascript:;">4</a>
+			<a href="javascript:;">5</a>
+			
+			<button>下一页</button>
+		</div>
+		<!--分页结束-->
+		<!--吸顶开始-->
+		<div class="ceiling">
+			<div class="ceiling_c">
+					<a href="javascript:;">全部</a>
+					<a href="javascript:;">服装配饰<i>(1189)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>					
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+					<a href="javascript:;">精品女装<i>(345)</i></a>
+			</div>
+		</div>
+		<!--吸顶结束-->
+		<!--侧边栏开始-->
+		<div class="sidebar">
+			<div class="sidebar_l">
+				<a href="login.html" class="sidebar_a1"><i></i><span>我的</span></a>
+				<a href="login.html" class="sidebar_a2"><i></i><span>消息</span></a>
+				<a href="login.html" class="sidebar_a3"><i></i><span>客服</span></a>
+				<a href="javascript:;" class="sidebar_a4"><i></i><span>购<br />物<br />车</span><b id="index_side_num">0</b></a>
+			</div>
+			<div class="sidebar_r">
+				<div class="sider_con_top">
+					购物车
+				</div>
+				<ul class="sider_con">
+					<!--<li>
+						<div class="sider_con_img"></div>
+						<p></p>
+						<p><span></span>X<i></i></p>
+					</li>-->
+				</ul>
+				<img class="sidebar_img" src="../img/common/kcart_04.gif"/>
+				<a href="shopCar.html" id="jiesuan"><img src="../img/index/jiesuan.jpg"/></a>
+			</div>
+		</div>
+		<!--侧边栏结束-->
+		<!--底部开始-->
+		<div class="footer">
+			<div class="footer_1">
+				<ul class="help">
+					<h2>用户帮助</h2>
+					<li><a href="javascript:;">玩转步淘商城</a></li>
+					<li><a href="javascript:;">生活商城常见问题</a></li>
+					<li><a href="javascript:;">网站的保障计划</a></li>
+					<li><a href="javascript:;">本站意见建议</a></li>
+				</ul>
+				<ul class="shopping">
+					<h2>用户帮助</h2>
+					<li><a href="javascript:;">网站购物向导</a></li>
+					<li><a href="javascript:;">本站订单操作</a></li>
+					<li><a href="javascript:;">汇款&转账</a></li>
+					<li><a href="javascript:;">验收与签收</a></li>
+				</ul>
+				<ul class="business">
+					<h2>用户帮助</h2>
+					<li><a href="javascript:;">本站商户入驻</a></li>
+					<li><a href="javascript:;">本站商户登陆</a></li>
+					<li><a href="javascript:;">本站合作案例</a></li>
+					<li><a href="javascript:;">步淘友情链接</a></li>
+				</ul>
+				<ul class="about">
+					<h2>用户帮助</h2>
+					<li><a href="javascript:;">关于生活商城</a></li>
+					<li><a href="javascript:;">步淘网诚聘英才</a></li>
+					<li><a href="javascript:;">联系步淘网</a></li>
+					<li><a href="javascript:;">生活商城用户协议</a></li>
+				</ul>
+				<ul class="service_line">
+					<h2>客服热线<span>(免长途费)</span></h2>
+					<b></b>
+					<div class="phone_service">
+						<div class="qq_line">
+							QQ在线客服：
+							<a href="javascript:;"><img src="../img/common/qq_qy.png"/></a>
+						</div>
+						<p>(周一到周日：8:30-18:00)</p>
+					</div>
+				</ul>
+			</div>
+			<div class="footer_2">
+				<div class="footer_2_c">
+					<a href="javascript:;">关于步淘网</a>|
+					<a href="javascript:;">联系我们</a>|
+					<a href="javascript:;">网站诚聘英才</a>|
+					<a href="javascript:;">友情链接</a>|
+					<a href="javascript:;">隐私条款</a>|
+					<a href="javascript:;">网站地图</a>
+				</div>
+			</div>
+			<div class="footer_3">
+				Copyright &copy; 2010-2012 butao.com All Rights Reserved 版权所有 浙B2-20090126-17
+			</div>
+			<div class="footer_b">
+				<a href="javascript:;"><img class="ma_t" src="../img/common/rzl.png"/></a>
+				<a href="javascript:;"><img class="ma_t" src="../img/common/zfb.png"/></a>
+				<a href="javascript:;"><img src="../img/common/dc8a3de75c1c3443cebd83dd7d195273.png"/></a>
+				<a href="javascript:;"><img src="../img/common/360green.png"/></a>
+			</div>
+		</div>
+		<!--底部结束-->
+	</body>
+	<script type="text/javascript" src="../libs/jquery-1.12.3.js" ></script>
+	<script type="text/javascript" src="../libs/jquery.cookie.js" ></script>
+	<script type="text/javascript" src="../js/common/common.js" ></script>
+	<script type="text/javascript" src="../js/goodList.js" ></script>
+	<script type="text/javascript" src="../js/common/cookie.js" ></script>
+</html>

@@ -1,0 +1,142 @@
+.login_bg{
+	width: 100%;
+	height: 100%;
+	background: #f3f1f4;
+}
+.login{
+	width: 1000px;
+	height: 786px;
+	margin: 0 auto;
+	border: 1px #F2F2F2 solid;
+}
+.login_connect{
+	height: 658px;
+	width: 445px;
+	float: left;
+}
+.login_connect_top{
+	width: 445px;
+	height: 90px;
+}
+.login_connect_top .login_logo{
+	display: inline-block;
+	margin-top: 20px;
+	height: 67px;
+	width: 227px;
+	background: url(../img/regist/reg_logo.png) no-repeat;
+}
+.login_connect_top_right{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 36px;
+	text-align: center;
+	width: 143px;
+	height: 45px;
+	background: url(../img/regist/login_btn.png) no-repeat 0 -188px;
+	margin-top: 62px;
+	float: right;
+}
+.login_connect_top_right a{
+	color: yellow;
+}
+
+
+
+
+.login_connect_bottom{
+	width: 441px;
+    border: 1px solid #e1e0e2;
+    background-color: #f9f8fa;
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.login_connect_bottom .login_p1 {
+	
+	padding-left: 100px;
+	width: 340px;
+	height: 36px;
+	line-height: 36px;
+	background: url(../img/regist/login_bg.png) no-repeat #eeecef;
+}
+.login_connect_bottom ul li{
+	width:441px ;
+	height: 57px;
+	font-size: 15px;
+}
+.login_connect_bottom ul li input{
+	width: 248px;
+	height: 36px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.login_connect_bottom ul{
+	margin-top: 20px;
+}
+.login_li1{
+	margin-left: 17px;
+}
+
+
+.login_li4{
+	margin-left: 67px;
+}
+.login_connect_bottom ul li span{
+	font-size: 12px;
+	color: red;
+
+}
+.login_connect_bottom ul i{
+	display: inline-block;
+	width: 441px;
+	height: 26px;
+	line-height: 26px;
+	margin-left: 112px;
+}
+.login_connect_bottom ul i span a{
+	color: red;	
+}
+
+
+
+
+.login_connect_bottom ul a{
+	font-weight: normal;
+	color: red;
+	width: 80px;
+	height: 40px;
+	font-size: 14px;
+	
+	display: inline-block;
+	
+	
+}
+#login_btn{
+	display: inline-block;
+	width: 155px;
+	height: 40px;
+	background: url(../img/regist/login_btn.png) no-repeat 3px -70px;
+	margin: 10px 10px 0 0;
+	
+	margin-left: 111px;
+}
+.quick_login{
+	width: 401px;
+	height: 116px;
+	padding: 20px;
+	background: url(../img/regist/quick_login_bg.png) repeat-x 0 0;
+}
+.quick_login h4{
+	margin-bottom: 10px;
+}
+.login_right{
+	width: 500px;
+	height: 605px;
+	float: right;
+
+	margin-top: 180px;
+}
+.login_right img {
+	margin-left: 110px;
+}

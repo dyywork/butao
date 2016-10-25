@@ -1,0 +1,173 @@
+.pay_con_bg{
+	background: #F7F7F7;
+	height: 100%;
+	width: 100%;
+}
+.pay_con_top{
+	width: 1000px;
+	padding: 20px 0;
+	margin: 0 auto;
+	height: 51px;
+	background: url(../img/shopCar/shop_menu_bg.png) repeat-x 0 35px;
+}
+.pay_con_top dl{
+	height: 51px;
+	width: 300px;
+	float: left;
+	text-align: center;
+}
+.pay_con_top dl .dd1,.dd2,.dd3{
+	margin-left: 120px;
+}
+.pay_con_top dl dt{
+	width: 300px;
+	height: 30px;
+}
+.dt1{
+	background: url(../img/shopCar/shop_menu_li.png) no-repeat 138px 5px;
+}
+.dt2{
+	background: url(../img/shopCar/shop_menu_li.png) no-repeat 138px -54px;
+}
+.dt3{
+	background: url(../img/shopCar/shop_menu_li.png) no-repeat 138px -116px;
+}
+.pay_con_city_top{
+	width: 960px;
+	height: 32px;
+	padding: 0 20px;
+	margin: 0 auto;
+	line-height: 32px;
+	border: 1px #e2dee2 solid;
+	background: #faf7f8;
+}
+.pay_con_city_top a{
+	padding: 0 20px;
+}
+.pay_con_city{
+	width: 960px;
+	height: 301px;
+	border: 1px #E2DEE2 solid;
+	border-top: none;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+}
+.new_city{
+	width: 960px;
+	height: 30px;
+	line-height: 30px;
+}
+.new_city_con{
+	width: 960px;
+	height:270px ;
+	background: #FAF7F8;
+}
+.new_city_con dl dt,dd{
+	float: left;
+	margin: 5px;
+}
+.new_city_con dl dt{
+	width: 130px;
+	height: 32px;
+	text-align: right;
+	line-height: 32px;
+}
+.new_city_con dl dd{
+	width: 800px;
+	height: 32px;
+	line-height: 32px;
+}
+.new_city_con dl dd input{
+	height: 25px;
+	width: 300px;
+	border: 1px #E2DEE2 solid;
+}
+.new_city_con dl dd a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: url(../img/pay/shopping_cart.png) no-repeat -125px -140px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+.pay_view{
+	height: 30px;
+	width: 960px;
+	padding: 0 20px;
+	margin: 30px auto 0;
+	background: #FAF7F8;
+	border: 1px #E2DEE2 solid;
+	line-height: 30px;
+}
+.pay_view_con{
+	width: 920px;
+	height: 160px;
+	background: #fff;
+	margin: 0 auto 20px;
+	border: 1px #E2DEE2 solid;
+	border-top: none;
+	padding: 20px 40px;
+	
+}
+.pay_view_con textarea{
+	height: 80px;
+	width: 300px;
+	margin-top: 20px;
+	border: 1px #E2DEE2 solid;
+}
+.pay_table{
+	width: 1000px;
+	margin: 0 auto 20px;
+	border-collapse: collapse;
+}
+.pay_table tr{
+	padding: 10px 0;
+}
+.pay_table thead .pay_th1{
+	width: 44%;
+	border: 1px #E2DEE2 solid;
+	background: #FAF7F8;
+	height: 30px;
+}
+.pay_table thead .pay_th2{
+	width: 14%;
+	border: 1px #E2DEE2 solid;
+	background: #FAF7F8;
+	height: 30px;
+}
+	
+
+
+.pay_table tfoot tr td{
+	background: #fff;
+	border: 1px #E2DEE2 solid;
+	text-align: right;
+	height: 30px;
+	padding-right: 20px;
+}
+.pay_table tfoot tr td span,i,b{
+	color: red;
+}
+.pay_table tbody tr td{
+	background: #fff;
+	border: 1px #E2DEE2 solid;
+	text-align: center;
+}
+.pay_table tbody tr td .pay_img{
+	height: 57px;
+	width: 90px;
+	margin: 10px;
+	overflow: hidden;
+	float: left;
+}
+.pay_table tbody tr td .pay_img img{
+	width: 90px;
+	height: auto;
+}
+.pay_bg_img{
+	margin: 20px auto;
+	width: 220px;
+	height: 60px;
+}
